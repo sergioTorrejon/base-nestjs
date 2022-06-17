@@ -1,0 +1,21 @@
+{
+  "env": "dev",
+  "server_port": 3005,
+  "ssl": false,
+  "type": "postgres",
+  "host": "localhost",
+  "username": "admin",
+  "password": "Bolivia2022",
+  "database": "db_sys_test",
+  "port": 5433,
+  "entities": [
+    "C:\\sergioTorrejon\\storrejon\\git\\base-nestjs\\nestjs-postgres\\api\\dist\\database\\typeorm/../**/*.entity{.ts,.js}"
+  ],
+  "migrations": [
+    "C:\\sergioTorrejon\\storrejon\\git\\base-nestjs\\nestjs-postgres\\api\\dist\\database\\typeorm/migrations/*{.ts,.js}"
+  ],
+  "logging": true,
+  "logger": "file",
+  "autoLoadEntities": true,
+  "synchronize": true
+}
